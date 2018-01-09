@@ -57,7 +57,7 @@
    text-align: center;
   }
   .liststyle{
-    margin-left: 40px;
+    margin-left: 50px;
     font-size: 20px;
     margin-bottom:20px;
   }
@@ -68,10 +68,60 @@
     border-left: 2px solid #e5e5e5;
     height: 500px;
     position: absolute;
-    left: 120px;
-    top: 210px;
+    left: 550px;
+    top: 300px;
 }
 .timings{
   list-style: none;
   font-size:18px;
+  margin-left:410px;
+}
+.items {
+  display: inline;
+  list-style: none;
+  padding-right: 40px;
+} 
+.items1{
+   display: inline;
+   list-style: none;
+   margin-left:100px;
+  padding-right: 40px;
+}
+.agenda{
+  margin-top:20px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+.sub-items{
+  margin-left: 30px;
+}
+.rectangle{
+  margin-left:50px;
+  width:1250px;
+  height:90px;
+  border:1px solid #000;
+  background-color:#e5e5e5;
+}
+.icon{
+  size:50px;
+}
+.sub-list{
+  margin-left:150px;
+   list-style: none;
+  margin-bottom: 10px; 
+  margin-top:10px;
+}
+.heading{
+  margin-left: 570px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: brown;
+  margin-bottom: 20px;
+}
+.heading1{
+  margin-left: 540px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: brown;
+  margin-bottom: 20px;
 }

@@ -19,28 +19,55 @@
     </div>
   </div>
   
-  	 <h1 class="a1">Agenda</h1>
-  	 <h2>February 27,2018</h2>
+  	 <h1 class="a1">Event Schedule</h1>
+    <div>
+        <ul class="agenda w3-padding w3-large w3-teal">
+          <li class="items1"><i class="glyphicon glyphicon-map-marker icon"> Four Seasons Resort<p class="sub-items"> Goa Beach</p></i>
+                  </li>
+          <li class="items"><i class="glyphicon glyphicon-time"> Mar 02, 2018<p class="sub-items">10.00am - 8.00pm</p></i>
+                  </li>
+          <li class="items"><i class="glyphicon glyphicon-send"> Seats are available<p class="sub-items">TICKETS ARE GOING FAST</p></i>
+                  </li>
+         <li class="items"><i class="glyphicon glyphicon-glass"> SMSAwards<p class="sub-items">Biggest one ever</p></i></li>
+        </ul>
+     </div>
+     <br>
+     <br>
+  	 <div class="heading">Morning Session</div>
      <div class="vl"></div>
   	      <ul>
-         <li class="timings"> <span>8:00 am</span><a href="#" [popover]="reg" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> Registration</a></li>
-            <li class="timings"> <span>9:00 am</span><a href="#" [popover]="note" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> Welcome Note</a></li>
-            <li class="timings"><span>9:15 am</span><a href="#" [popover]="summit" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> Summit</a></li>
-            <li class="timings"><span>9:30 am</span><a href="#" [popover]="summit" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> The Path to Profitability </a></li>
+         <li class="timings"> <span>08:00 am</span><a href="#" [popover]="sales" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> Sales  &  Operations Summit</a>
+            <ul>
+                <li class="sub-list"><span class="glyphicon glyphicon-hourglass"></span> Rackspace <span class="glyphicon glyphicon-arrow-right"></span> Venugopal </li>
+                <li class="sub-list"><span class="glyphicon glyphicon-hourglass"></span> MCAProtect <span class="glyphicon glyphicon-arrow-right"></span> DC</li>
+             </ul>   
+         </li>
+            <li class="timings"> <span>10:00 am</span><a href="#" [popover]="hr" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> HR Projects</a>
+                 <ul>
+                <li class="sub-list"><span class="glyphicon glyphicon-hourglass"></span> BI Team <span class="glyphicon glyphicon-arrow-right"></span> Amith Gulati </li>
+                </ul>
+            </li>
+            <li class="timings"><span>11.30 am</span><a href="#" [popover]="is" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> Information Security</a>
+                 <ul>
+                <li class="sub-list"><span class="glyphicon glyphicon-hourglass"></span> Security Breach <span class="glyphicon glyphicon-arrow-right"></span> Ashutosh Bijoor </li>
+                </ul>
+            </li>
+            <div class="heading1">Afternoon Session</div>
+            <li class="timings"><span>01:00 am</span><a href="#" [popover]="summit" [popoverOnHover]="true" popoverPlacement="bottom" class="liststyle"><span class="glyphicon glyphicon-hand-right"></span> Lunch </a></li>
         </ul>
-        <popover-content #reg
+        <popover-content #sales
             title="Details"
             [closeOnClickOutside]="true">
-            February 27,2018 8.00 AM-10.00 AM.
+            Sales & Ops 
         </popover-content>
-        <popover-content #note
+        <popover-content #hr
             title="Details"
             [closeOnClickOutside]="true">
-            Welcome note by attendee.
+            HR related stuff
         </popover-content>
-        <popover-content #summit
+        <popover-content #is
             title="Details"
             [closeOnClickOutside]="true">
-            Summit on investment plan.
+            Security guidelines.
         </popover-content>
 
